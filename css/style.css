@@ -1,0 +1,37 @@
+header>nav{
+    justify-content: space-between;
+}
+ #quiz-color{
+     padding: 30px;
+     border-radius: 20px;
+     color: white;
+ }
+  #select{
+     padding: 10px;
+     border-radius: 10px;
+ }
+ a{
+    color: white;
+    text-underline-offset: 10px;
+ }
+ footer{
+     color: white;
+ }
+nav{ 
+    flex-direction: space-between;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.b{
+    color: white;
+}
+.space{
+    justify-content: space-around;
+}
+@media(max-width: 768px){
+    nav{
+        flex-direction : column;
+    }
+}
